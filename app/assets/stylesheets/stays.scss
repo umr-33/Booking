@@ -1,3 +1,42 @@
-// Place all the styles related to the stays controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  height: 60px;
+  h1 {
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 20px;
+    text-align: center;
+    float: left;
+  }
+}
+
+.nav {
+  ul {
+    display: flex;
+    
+    li {
+      list-style: none;
+      line-height: 50px;
+      border: 1px solid #000000;
+      text-align:center;
+      width: 20%;
+
+    }
+  }
+}
+content {
+  
+}
+.content-left {
+  width: 400px;
+  background-color: brown;
+  }
+#content-right {
+      width: 400px;
+      zoom: 0.75;
+    }
