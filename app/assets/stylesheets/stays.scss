@@ -14,8 +14,17 @@ header {
     float: left;
   }
 }
-
+#cover-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .nav {
+  margin: 0 auto;
+  &__tab {
+    margin-left: 110px;
+  }
+
   ul {
     display: flex;
     
@@ -33,10 +42,12 @@ content {
   
 }
 .content-left {
-  width: 400px;
-  background-color: brown;
+  width: 500px;
+  float: left;
   }
 #content-right {
-      width: 400px;
-      zoom: 0.75;
-    }
+  width: 700px;
+  zoom: 0.75;
+  float: left;
+  margin-left: 30px;
+  }
