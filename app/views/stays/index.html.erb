@@ -5,8 +5,33 @@
     <title>booking</title>
   </head>
   <body>
-  <header></header>
-  <div id="calendar"></div>
-
+  <header>
+    <div class=heading>
+      <h1 class="title">BOOKING</h1>
+    </div>
+  </header>
+  <div id="cover-image">
+    <%= image_tag '/images.jpeg', size: '1000x400' %>
+  </div>
+    <div class="nav">
+      <ul class="nav__tab">
+        <li class=nav__tab--list>物件情報</li>
+        <li class=nav__tab--list>料金</li>
+        <li class=nav__tab--list>アクセス</li>
+        <li class=nav__tab--list>クチコミ</li>
+      </ul>
+    </div>
+  <div class="contents">
+    <div class="content-left">
+      <h2>物件紹介</h2>
+        <p >京都北区に位置する 「かぶき屋」。
+          平成２９年4月にオープンしたばかりです。87年の京町家をリフォーム、伝統的な日本家屋で心地よい時間をお過ごし下さい。ベッドルーム3 (1,2階)、リビング2 (1,2階)、ダイニング1、トイレ1、浴槽1、シャワー1、
+          かぶき園-物件の西側に位置する日本庭園は日没時にライトアップします。デッキから観賞下さい。
+          ゆっくり休んで頂けるベッド4、布団 2、毛布等</p>
+    </div>
+    <div id="content-right">
+      <div id="calendar"></div>
+    </div>
+  <footer></footer>
   </body>
 </html>
